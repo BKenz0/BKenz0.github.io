@@ -27,7 +27,7 @@ body {
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #ced0d1;
+    background-color: #e4e4e4;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #334251;
 }
 
 .profile .profile-image {
@@ -57,7 +57,7 @@ body {
 }
 
 .profession {
-    color: #fdb17f;
+    color: #fde07f;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -68,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #fdb17f;
+    color: #fde07f;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #D6DBDF;
 }
 
 .skills ul {
@@ -136,7 +136,7 @@ body {
 
 .right-title {
     color: #5a6b80;
-    font-size: 40px;
+    font-size: 32px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -153,8 +153,9 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #414141;
+    color: #7a7a7a;
     padding-bottom: .4rem;
+    font-family: 'Quicksand';
 }
 
 .experience-contents,
@@ -163,7 +164,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #414141;
+    color: #7a7a7a;
 }
 
 .exp-company-name,
@@ -173,16 +174,17 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #b1754a;
+    color: #5c5c5c;
     padding-bottom: .4rem;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
+    font-style: italic;
 }
 
 .exp-position,
@@ -202,8 +204,9 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #414141;
+    border-left: 3px solid #5a6b80;
     padding-left: 5px;
+    font-family: 'Quicksand';
 }
 
 /* Media queries */
